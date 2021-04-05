@@ -32,7 +32,7 @@ function buildProfiles(images) {
       $(card).find('.dog-profile__rating').text( $(card).find('.dog-profile__rating').text() + '* ');
     }
 
-    $(card).appendTo('.dogs .flex');
+    $(card).appendTo('.dogs .grid');
   });
 
   cleanUp();
